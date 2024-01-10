@@ -2,41 +2,40 @@
 
 <img src="readme.asset/play.gif" alt="intro">
 
-**V-LIVE** 는 드라마나 영화의 한 장면을 **실시간 스트리밍**으로 보면서, **직접 연기하면서 배우가 되어 보는 경험**을 사람들과 공유할 수 있는 라이브 게임입니다.
+**V-LIVE** 는 드라마나 영화의 한 장면을 **실시간 스트리밍**으로 보면서, **직접 연기하면서 배우가 되어 보는 경험**을 사람들과 공유할 수 있는 라이브 게임입니다.<br>
+흔히 짤이라고 일컬어지는 **드라마나 영화의 한 장면**이 온라인에서 공유되고, 많은 사람들이 이를 따라하며 즐거워하는 것에서 영감을 얻어 **V-LIVE** 를 제작하게 되었습니다
 
-#### 🔗 **[V-LIVE 시연 영상 (소리가 나옵니다 🔊) ](https://awwdwd.s3.ap-northeast-2.amazonaws.com/vlive_%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A7%E1%86%AB+%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC.mp4)**
-
-#### 🔗 **[DEMO LINK](https://www.vlive.live/)**
-
-<br>
-
-# **Shortcut**
-
-- [Introduction](#Introduction)
-- [Stack](#Stack)
-- [Features](#Features)
-- [Project Log](#Project-Log)
-- [Usage](#Usage)
-- [Deploy](#Deploy)
+🔗 **[V-LIVE 시연 영상 (소리가 나옵니다 🔊) ](https://awwdwd.s3.ap-northeast-2.amazonaws.com/vlive_%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A7%E1%86%AB+%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC.mp4)**<br>
+🔗 **[DEMO LINK](https://www.vlive.live/)**
 
 <br>
 
-# Introduction
+## **Shortcut**
 
-### **프로젝트 기간**
+- [Introduction](##Introduction)
+- [Stack](##Stack)
+- [Features](##Features)
+- [Project Log](##Project-Log)
+- [Usage](##Usage)
+- [Deploy](##Deploy)
+
+<br>
+
+## Introduction
+
+**`프로젝트 기간`**
+
 2021.08.30 ~ 2021.09.18 : 3주
 - 아이디어 기획, 목업작성, 애자일 스프린트 플랜 : 1주
 - 개발 진행, 배포, 테스트 : 2주
 
-### **프로젝트 멤버**
-🐞 [버그잡기 달인 **김은빈**](https://github.com/stitchy11)<br>
-🤹 [디테일의 달인 **양하윤**](https://github.com/mycolki)<br>
-😃 [화이팅의 달인 **조효정**](https://github.com/julian-jeong)
+**`프로젝트 멤버`**
 
-### **프로젝트 동기**
-흔히 짤이라고 일컬어지는 **드라마나 영화의 한 장면**이 온라인에서 공유되고, <br>많은 사람들이 이를 따라하며 즐거워하는 것에서 영감을 얻어 **V-LIVE** 를 제작하게 되었습니다.
+- 🤹 [디테일의 달인 **양하윤**](https://github.com/mycolki)<br>
+- 🐞 [버그잡기 달인 **김은빈**](https://github.com/stitchy11)<br>
+- 😃 [화이팅의 달인 **조효정**](https://github.com/julian-jeong)
 
-### **프로젝트 프로세스**
+**`프로젝트 프로세스`**
 - 아이디어 기획
 - 기술 스택 검토
 - [**Figma를 이용한 Mockup**](https://www.figma.com/file/JoxQgsA29zX7TaaEXHeIkC/Dubbing-Game?node-id=0%3A1)설계
@@ -44,22 +43,22 @@
 - **Agile Sprint** 기반의 태스크 매니지먼트
 - Git Repo를 Frontend와 Backend 로 **각각 구분**하여 독립적으로 관리
 
-### **Git Work Flow**
+**`Git Work Flow`**
 - branch: master & feature branches
 - 기능별로 feature branch를 생성하고 코드 작성
 - master 브랜치로 병합 (rebase 전략)
 
 <br>
 
-# Stack
-### **Frontend**
+## Stack
+**`Frontend`**
 - 코어: Next.js, JavaScriptES2015+
 - 상태관리: SWR
 - 스타일링: Emotion,
 - 테스팅: Jest, React Testing Library
 - 포맷팅: ESLint
 - Simple-Peer, Socket.io & Socket.io Client, Firebase
-### **Backend**
+**`Backend`**
 - 코어: Node.js, Express, JavaScript ES2015+
 - DB: MongoDB & Mongoose, Joi
 - 인증: Json Web Token Authentication
@@ -68,8 +67,7 @@
 
 <br>
 
-# Features
-
+## Features
 - Firebase 소셜 로그인 및 Json Web Token을 이용한 사용자 인증
 - MongoDB Atlas를 이용한 채널정보 및 사용자 정보 관리
 - WebRTC, Peer를 이용한 실시간 화상 채팅 기능
@@ -83,7 +81,7 @@
 
 <br>
 
-> **랜딩 화면 ~ 히스토리 ~ 채널 목록 ~ 채널 생성**
+**`랜딩 화면 ~ 히스토리 ~ 채널 목록 ~ 채널 생성`**
 
 <div>
 <img style="width: 49%" src="readme.asset/landing.jpg" alt="landing">
@@ -94,21 +92,21 @@
 
 <br>
 
-> **역할 선택**
+**`역할 선택`**
 
-<img style="width: 80%"  src="readme.asset/select.gif" alt="preview">
-
-<br>
-
-> **실시간 더빙 연기**
-
-<img style="width: 80%"  src="readme.asset/dubbing.gif" alt="dubbing">
+<img style="width: 90%"  src="readme.asset/select.gif" alt="preview">
 
 <br>
 
-> **연기 투표**
+**`실시간 더빙 연기`**
 
-<img style="width: 80%"  src="readme.asset/voting.gif" alt="voting">
+<img style="width: 90%"  src="readme.asset/dubbing.gif" alt="dubbing">
+
+<br>
+
+**`연기 투표`**
+
+<img style="width: 90%"  src="readme.asset/voting.gif" alt="voting">
 
 <br>
 
@@ -160,7 +158,7 @@
 
 <br>
 
-# Project Log
+## Project Log
 
 ### **팀 프로젝트 협업**
 
@@ -194,7 +192,7 @@
 
 <br>
 
-# Usage
+## Usage
 
 ### **Requirements**
 - 최신 버전의 Chrome Browser 사용을 권장합니다.
@@ -241,7 +239,7 @@ Root 디렉토리에 `.env` 파일을 생성하고, 다음 환경변수를 입�
 
 <br>
 
-# Deploy
+## Deploy
 
 - AWS Elastic Beanstalk를 사용하여 애플리케이션 배포 및 관리
 - Pipeline을 이용한 배포 자동화 구현
