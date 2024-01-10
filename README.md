@@ -2,12 +2,12 @@
 
 <img src="readme.asset/play.gif" alt="intro">
 
-**V-LIVE** 는 드라마나 영화의 한 장면을 **실시간 스트리밍**으로 보면서, **직접 연기하면서 배우가 되어 보는 경험**을 사람들과 공유할 수 있는 라이브 게임입니다.<br>
-흔히 짤이라고 일컬어지는 **드라마나 영화의 한 장면**이 온라인에서 공유되고, 많은 사람들이 이를 따라하며 즐거워하는 것에서 영감을 얻어 **V-LIVE** 를 제작하게 되었습니다
+V-LIVE는 드라마나 영화의 한 장면을 **실시간 스트리밍**으로 보면서, **직접 연기하면서 배우가 되어 보는 경험**을 사람들과 공유할 수 있는 라이브 게임입니다.<br>
+흔히 짤이라고 일컬어지는 드라마나 영화의 한 장면이 온라인에서 공유되고 많은 사람들이 이를 따라하며 즐거워하는 것에서 영감을 얻어, **V-LIVE** 를 제작하게 되었습니다
 
-🔗 **[V-LIVE 시연 영상 (소리가 나옵니다 🔊) ](https://awwdwd.s3.ap-northeast-2.amazonaws.com/vlive_%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A7%E1%86%AB+%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC.mp4)**<br>
-🔗 **[DEMO LINK](https://www.vlive.live/)**
-
+**V-LIVE 시연영상(소리가 나옵니다)**
+- [🍠 호구마 더빙연기](https://vlive-mp4.s3.ap-northeast-2.amazonaws.com/act.mp4)
+- [🍠 호구마 연기투표](https://vlive-mp4.s3.ap-northeast-2.amazonaws.com/vote.mp4)
 <br>
 
 ## **Shortcut**
