@@ -1,30 +1,27 @@
-# **🎙 V-LIVE**
+# 🎙 V-LIVE
 
 <img src="readme.asset/play.gif" alt="intro">
 
-**V-LIVE** 는 드라마나 영화의 한 장면을 **실시간 스트리밍**으로 보면서 **직접 연기하면서 배우가 되어 보는 경험**을 사람들과 공유할 수 있는 라이브 게임입니다.
+**V-LIVE** 는 드라마나 영화의 한 장면을 **실시간 스트리밍**으로 보면서, **직접 연기하면서 배우가 되어 보는 경험**을 사람들과 공유할 수 있는 라이브 게임입니다.
 
 #### 🔗 **[V-LIVE 시연 영상 (소리가 나옵니다 🔊) ](https://awwdwd.s3.ap-northeast-2.amazonaws.com/vlive_%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A7%E1%86%AB+%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC.mp4)**
 
 #### 🔗 **[DEMO LINK](https://www.vlive.live/)**
 
 <br>
-<br>
 
-# **𝌞 CONTENTS**
+# **SHORTCUT**
 
-- [🎙 V-LIVE](#-V-LIVE)
-- [🎤 INTRODUCTION](#-INTRODUCTION)
-- [📸 FEATURES](#-FEATURES)
-- [🕋 STACK](#-STACK)
-- [🕹 USAGE](#-USAGE)
-- [🎞 DEPLOY](#-DEPLOY)
-- [🎥 PROJECT LOG](#-PROJECT-LOG)
+- [INTRODUCTION](#INTRODUCTION)
+- [STACK](#STACK)
+- [FEATURES](#FEATURES)
+- [USAGE](#USAGE)
+- [DEPLOY](#DEPLOY)
+- [PROJECT LOG](#PROJECT-LOG)
 
 <br>
-<br>
 
-# **🎤 INTRODUCTION**
+# INTRODUCTION
 
 ### **프로젝트 기간**
 
@@ -59,9 +56,38 @@
 - master 브랜치로 병합 (rebase 전략)
 
 <br>
+
+# STACK
+
+### **Frontend**
+
+- JavaScript ES2015+
+- Next.js
+- SWR
+- Simple-Peer
+- Socket.io & Socket.io Client
+- Firebase
+- Emotion
+- Jest
+- React Testing Library
+- ESLint
+
+### **Backend**
+
+- JavaScript ES2015+
+- Node.js
+- Express
+- MongoDB & Mongoose
+- Json Web Token Authentication
+- Joi
+- Chai
+- Mocha
+- Supertest for unit-test
+- ESLint
+
 <br>
 
-# **📸 FEATURES**
+# FEATURES
 
 - Firebase 소셜 로그인 및 Json Web Token을 이용한 사용자 인증
 - MongoDB Atlas를 이용한 채널정보 및 사용자 정보 관리
@@ -74,7 +100,6 @@
 - 에피소드 프리뷰 재생 기능
 - 채널 히스토리 저장
 
-<br>
 <br>
 
 > **랜딩 화면 ~ 히스토리 ~ 채널 목록 ~ 채널 생성**
@@ -104,7 +129,6 @@
 
 <img style="width: 80%"  src="readme.asset/voting.gif" alt="voting">
 
-<br>
 <br>
 
 <details>
@@ -154,40 +178,8 @@
   </details>
 
 <br>
-<br>
 
-# **🕋 STACK**
-
-### **Frontend**
-
-- JavaScript ES2015+
-- Next.js
-- SWR
-- Simple-Peer
-- Socket.io & Socket.io Client
-- Firebase
-- Emotion
-- Jest
-- React Testing Library
-- ESLint
-
-### **Backend**
-
-- JavaScript ES2015+
-- Node.js
-- Express
-- MongoDB & Mongoose
-- Json Web Token Authentication
-- Joi
-- Chai
-- Mocha
-- Supertest for unit-test
-- ESLint
-
-<br>
-<br>
-
-# **🕹 USAGE**
+# USAGE
 
 ### **Requirements**
 
@@ -236,9 +228,8 @@ Root 디렉토리에 `.env` 파일을 생성하고, 다음 환경변수를 입�
   ```
 
 <br>
-<br>
 
-# **🎞 DEPLOY**
+# DEPLOY
 
 - AWS Elastic Beanstalk를 사용하여 애플리케이션 배포 및 관리
 - Pipeline을 이용한 배포 자동화 구현
@@ -248,9 +239,8 @@ Root 디렉토리에 `.env` 파일을 생성하고, 다음 환경변수를 입�
 - **Backend** : https://api.vlive.live
 
 <br>
-<br>
 
-# **🎥 PROJECT LOG**
+# PROJECT LOG
 
 ### **팀 프로젝트 협업**
 
